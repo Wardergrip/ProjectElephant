@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9100341106821303296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2604627202299482380}
+  m_Layer: 0
+  m_Name: Stage_TestScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2604627202299482380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9100341106821303296}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8979687084584777450}
+  - {fileID: 2027400097535562018}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &3739648685654947918
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2604627202299482380}
+    m_Modifications:
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8893801655163751422, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+      propertyPath: m_Name
+      value: CastleKit_WallDoorway
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+--- !u!4 &2027400097535562018 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3442758988050671980, guid: eed32e96065d65e449b4dc4ab7fa0c3d, type: 3}
+  m_PrefabInstance: {fileID: 3739648685654947918}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3844726644827823171
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2604627202299482380}
+    m_Modifications:
+    - target: {fileID: 2308370368471333079, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_Name
+      value: CastleKit_Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+--- !u!4 &8979687084584777450 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5315786124246362793, guid: fed18d17458a33e418692016bfa9b988, type: 3}
+  m_PrefabInstance: {fileID: 3844726644827823171}
+  m_PrefabAsset: {fileID: 0}
