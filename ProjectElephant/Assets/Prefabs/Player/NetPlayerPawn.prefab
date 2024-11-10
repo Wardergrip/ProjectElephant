@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2201984725062624423}
   - component: {fileID: 2522840860223300847}
   m_Layer: 0
-  m_Name: PlayerPawn
+  m_Name: NetPlayerPawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
