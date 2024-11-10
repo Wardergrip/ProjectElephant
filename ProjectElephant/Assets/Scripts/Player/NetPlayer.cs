@@ -27,6 +27,8 @@ namespace Elephant
         [Client]
         private void ClientUpdate()
         {
+            if (isLocalPlayer == false) return;
+
             if (Input.GetKey(KeyCode.W)) 
             {
                 RPC_MoveInput(Vector3.forward);
